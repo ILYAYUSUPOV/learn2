@@ -1,0 +1,31 @@
+@import "constants.scss";
+
+.category-menu {
+	display: flex;
+	text-align: center;
+	justify-content: center;
+  margin: 64px 0 48px;
+  padding: 0;
+}
+.border {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: .9em;
+	font-weight: 600;
+	margin: 0 0.4em;
+	border-radius: 30px;
+	border: 2px solid $darkgrey;
+	&:hover {
+		color: $white;
+		background-color: $orange;
+    border: solid 2px $orange;
+	}
+}
+.image-games {
+	display: flex;
+}
+.image-card {
+	width: 33%;
+	height: 33%;
+}
